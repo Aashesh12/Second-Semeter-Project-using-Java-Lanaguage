@@ -11,10 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ATMsGUI extends JFrame {
-    Transaction t1 = new Transaction(1001, "Ariz Ali", 1154, 50000);
+    Transaction t1 = new Transaction(1001, "Aashesh", 1154, 50000);
     Transaction t2 = new Transaction(1002, "Eshaan", 1150, 5000);
     Transaction t3 = new Transaction(1003, "Ali Rasikh", 1153, 10000);
-    Transaction t4 = new Transaction(1004, "Aashesh", 1161, 15000);
+    Transaction t4 = new Transaction(1004, "Ariz", 1161, 15000);
 
     private final CardLayout cardLayout;
     private final JPanel cardPanel;
